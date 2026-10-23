@@ -1,0 +1,39 @@
+# 构建产物
+build/
+build-*/
+out/
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 模型文件（单个 2GB+，绝不入库）
+*.gguf
+*.bin
+models/
+build_log.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+src/tasks.json
+
+# 编辑器与系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.log
+!docs/*.log
